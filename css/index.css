@@ -1,0 +1,78 @@
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: rgb(255, 251, 251);
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+#welcome-section {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+  text-align: left;
+  font-size: 3rem;
+  padding: 125px;
+  margin: 0;
+  /* color: rgb(132, 189, 255); */
+  background-color: rgb(0, 28, 51);
+  line-height: 80px;
+}
+
+#intro {
+  font-size: 1.25rem;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(60, 240, 253);
+  line-height: 100px;
+  text-align: center;
+}
+
+#intro-1st {
+  line-height: 100px;
+  color: rgb(196, 221, 250);
+}
+
+#intro-2nd {
+  text-align: left;
+  color: rgb(159, 201, 250);
+}
+
+#intro-3rd {
+  color: rgb(118, 180, 252);
+}
+
+#intro-4th {
+  color: rgb(76, 157, 250);
+}
+
+#intro-5th {
+  color: rgb(30, 129, 243);
+}
+
+#intro-6th {
+  color: rgb(0, 90, 194);
+}
